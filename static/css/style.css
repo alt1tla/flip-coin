@@ -1,0 +1,201 @@
+/* Font */
+
+@font-face {
+  font-family: "Exo 2";
+  src: url("../font/Exo2.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.exo-2-200 {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.exo-2-300 {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.exo-2-400 {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.exo-2-500 {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.exo-2-600 {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.exo-2-700 {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.exo-2-800 {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.exo-2-900 {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Variables */
+
+:root {
+  /* Colors */
+  --bg-color: #fefdf8;
+  --text-color: #0e1116;
+  --bg-accent-color: #f0a963;
+  --accent-color-hover: #374a67;
+  --accent-color: #61a1d7;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+.container {
+  background-color: var(--bg-color);
+  width: 400px;
+  padding: 25px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  border-radius: 25px;
+  -webkit-perspective: 350px;
+  perspective: 350px;
+}
+
+.stats {
+  text-align: right;
+}
+
+.coin-head,
+.coin-tail {
+  height: 309px;
+  width: 309px;
+  position: relative;
+  margin: 50px auto;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.heads,
+.tails {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.back {
+  transform: rotateY(-180deg);
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hide {
+  display: none;
+}
+
+button {
+  width: max-content;
+  padding: 25px 40px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+  transition: all ease-in-out 0.4s;
+}
+
+#btn-flip {
+  background-color: var(--bg-color);
+}
+
+#btn-reset {
+  background-color: var(--bg-color);
+}
+
+#btn-flip:hover,
+#btn-reset:hover {
+  background-color: var(--bg-accent-color);
+}
+
+#btn-flip:disabled,
+#btn-flip:disabled:hover {
+  background-color: var(--accent-color-hover);
+  color: var(--bg-color);
+  cursor: default;
+}
+
+@keyframes flip-head-to-head {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(3600deg);
+  }
+}
+
+@keyframes flip-head-to-tail {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(1800deg);
+  }
+}
+
+@keyframes flip-tail-to-head {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(1800deg);
+  }
+}
+
+@keyframes flip-tail-to-tail {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(3600deg);
+  }
+}
