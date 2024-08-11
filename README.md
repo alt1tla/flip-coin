@@ -1,4 +1,4 @@
-### Flip coin version: 1.0.1
+# Flip coin version: 1.0.2
 
 This version includes some functionality:
 
