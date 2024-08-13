@@ -25,4 +25,4 @@ Pressing the "reset" button resets the account and also sets the starting side o
 
 ## Screentshot
 
-<img width="400" height="400" src="./static/img/screenshot.jpeg" />
+<img src="./static/img/screenshot.jpeg" />
