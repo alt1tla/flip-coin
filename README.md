@@ -1,4 +1,4 @@
-### Flip coin version: 1.0.0
+# <h1>Flip coin</h1> version: 1.0.0
 
 This version includes some functionality:
 
@@ -25,4 +25,4 @@ Pressing the "reset" button resets the account and also sets the starting side o
 
 ## Screentshot
 
-<img src="./static/img/screenshot.jpeg" />
+<img src="./static/img/screenshot.jpeg" alt="flip-coin interface" />
