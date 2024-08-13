@@ -1,4 +1,4 @@
-# Flip coin version: 1.0.1
+### Flip coin version: 1.0.0
 
 This version includes some functionality:
 
@@ -17,7 +17,7 @@ The value of the number of turns of the coin can be changed in the style.css fil
 
 ## Show a score
 
-There is a "count" on the card that shows the number of "Moon" and "Earth" that have fallen out.
+There is a score on the card that shows the number of "Moon" and "Earth" that have fallen out.
 
 ## Reset a score
 
