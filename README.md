@@ -1,4 +1,4 @@
-# <h1>Flip coin</h1> version: 1.0.0
+# Flip coin version: 1.0.0
 
 This version includes some functionality:
 
