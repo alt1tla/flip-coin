@@ -1,4 +1,4 @@
-### Flip coin version: 1.0.0
+# Flip coin version: 1.0.1
 
 This version includes some functionality:
 
@@ -22,3 +22,7 @@ There is a "count" on the card that shows the number of "Moon" and "Earth" that 
 ## Reset a score
 
 Pressing the "reset" button resets the account and also sets the starting side of the coin with the image of "Earth".
+
+## Screentshot
+
+<img width="400" height="400" src="./static/img/screenshot.jpeg" />
