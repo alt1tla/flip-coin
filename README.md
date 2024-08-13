@@ -23,6 +23,6 @@ There is a score on the card that shows the number of "Moon" and "Earth" that ha
 
 Pressing the "reset" button resets the account and also sets the starting side of the coin with the image of "Earth".
 
-## Screentshot
+## Screenshot
 
 <img src="./static/img/screenshot.jpeg" alt="flip-coin interface" />
